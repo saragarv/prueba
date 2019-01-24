@@ -1,0 +1,29 @@
+git config --global user.name
+git config --l
+git status
+git push origin master
+git config --global alias.sn "config --global user.name"
+
+git add nombre fichero, nombre fichero
+git add -A
+git commit -m "mensaje"
+git log
+git diff
+git commit -amend -m "mensaje"
+git checkout checksum
+git reset
+git branch
+git branch -a (ramas remotas)
+git branch nombre_rama
+git checkout nombre rama
+git merge nombre_rama
+git branch -D nombre_rama
+git tag -l
+git checkout nombre_tag
+git tag nombre_tag
+git push origin nombre_rama nombre_tag
+git push origin nombre_rama --t  todos los tag
+
+git fetch origin descarcamos cambios de repositorio remoto
+git merge origin/master -- incorporamos cambios de la rama remota a la laocal
+git pull origin master, hace el fetch y el merge a la vez
